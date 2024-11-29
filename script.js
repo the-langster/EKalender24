@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 16,Aufwachen!,Morgenstern,https://wordly.org/de?challenge=bW9yZ2Vuc3Rlcm4
 17,rutschen,Schlitten,https://wordly.org/de?challenge=c2NobGl0dGVu
 18,Tütata laut,Feuerwerk,https://wordly.org/de?challenge=ZmV1ZXJ3ZXJr
-19,Bitte,Geschenk,https://wordly.org/de?challenge=Z2VzY2hlbms
+19,Danke,Geschenk,https://wordly.org/de?challenge=Z2VzY2hlbms
 20,Reh,Rentier,https://wordly.org/de?challenge=cmVudGllcg
 21,Entchen,Braten,https://wordly.org/de?challenge=YnJhdGVu
 22,schaukel schaukel schaukel,Krippe,https://wordly.org/de?challenge=a3JpcHBl
