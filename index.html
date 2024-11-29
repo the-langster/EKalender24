@@ -18,7 +18,7 @@
             align-items: center;
             height: 100vh;
             margin: 2px;
-			background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+            background: linear-gradient(45deg, #ff0000, #008000, #ffd700);
             font-family: 'Press Start 2P', cursive;
         }
 
@@ -93,12 +93,13 @@
         /* Additional style for number overlays */
         .number-overlay {
             position: absolute;
-            color: red;
+            color:    #ec7063   ; -webkit-text-stroke: 1px rgba( 125, 60, 152,1);
             font-size: 20px;
             cursor: pointer;
+            
         }
         
-        
+
  #feedback,
 #calendar {
     clear: both;
@@ -118,40 +119,40 @@
     <script src="script.js"></script>
     
     <article>
-        <h1 style="color: rgba(0,242,211,1); -webkit-text-stroke: 1px rgba(80,58,120,1);" >Weihnachtsrätseladventskalender</h1>
+        <h1 style="color: #ff0000; -webkit-text-stroke: 1px rgba(80,58,120,1);" >Weihnachtsrätseladventskalender</h1>
         
         <div id="calendar"></div>
         <div id="feedback"></div>
 
         <!-- Single image with number overlays; img is 634 x 634 -->
-        <div id="imageContainer" style="position: relative; display: inline-block; overflow: auto; ">
-            <img src="sounds/test.jpg" alt="Advent Calendar" id="adventCal">
+        <div id="imageContainer" style="position: relative; display: inline-block; overflow: auto;left: 55px; ">
+            <img src="sounds/windows4small.jpg" alt="Advent Calendar" id="adventCal">
             <!-- Number overlays -->
             
-          <div class="number-overlay" data-number="1" data-type="baby" data-trivia="head_elli_ari.jpg" data-memo="" style="top: 210px; left: 399px;">1</div>
-          <div class="number-overlay" data-number="2" data-type="baby" data-trivia="excited.jpg" data-memo="elli_vogelschrei" style="top: 600px; left: 60px;">2</div>
-          <div class="number-overlay" data-number="3" data-type="bird" data-trivia="https://piped.kavin.rocks/watch?v=gZrXDCv5OXg" style="top: 300px; left: 500px;">3</div>
-          <div class="number-overlay" data-number="4" data-type="baby" data-trivia="elli_verbrecher.jpg" style="top: 20px; left: 160px;">4</div>
-          <div class="number-overlay" data-number="5" data-type="bird" data-trivia="https://piped.kavin.rocks/watch?v=VGj-k8op7i8" style="top: 234px; left: 30px;">5</div>
-          <div class="number-overlay" data-number="6" data-type="baby" data-trivia="elli_drauss.jpg" data-memo="elli_prust" style="top: 190px; left: 110px;">6</div>
-          <div class="number-overlay" data-number="7" data-type="baby" data-trivia="elli_leipzsch.jpg" data-memo="" style="top: 170px; left: 550px;">7</div>
-          <div class="number-overlay" data-number="8" data-type="baby" data-trivia="bluh.jpg" data-memo="katzenbrr" style="top: 550px; left: 500px;">8</div>
-          <div class="number-overlay" data-number="9" data-type="bird" data-trivia="https://piped.kavin.rocks/watch?v=vll33KEoCcc" data-memo="" style="top: 375px; left: 200px;">9</div>
-          <div class="number-overlay" data-number="10" data-type="bird" data-trivia="https://piped.kavin.rocks/watch?v=8i40lc9et_Y" data-memo="löwenbaby" style="top: 70px; left: 60px;">10</div>
-          <div class="number-overlay" data-number="11" data-type="baby" data-trivia="wbaum.jpg" data-memo="elli_cbfunk" style="top: 99px; left: 450px;">11</div>
-          <div class="number-overlay" data-number="12" data-type="baby" data-trivia="elli_wein.jpg" data-memo="elli_katzenjammer" style="top: 508px; left: 571px;">12</div>
-          <div class="number-overlay" data-number="13" data-type="baby" data-trivia="elli_lachen.jpg" data-memo="" style="top: 430px; left: 20px;">13</div>
-          <div class="number-overlay" data-number="14" data-type="bird" data-trivia="https://piped.kavin.rocks/watch?v=7X8k6REbtzo" data-memo="" style="top: 150px; left: 300px;">14</div>
-          <div class="number-overlay" data-number="15" data-type="bird" data-trivia="https://piped.kavin.rocks/watch?v=SXaIVDX44eE" data-memo="parrot crying" style="top:590px; left: 240px;">15</div>
-          <div class="number-overlay" data-number="16" data-type="baby" data-trivia="strichmund.jpg" data-memo="lalala" style="top: 60px; left: 360px;">16</div>
-          <div class="number-overlay" data-number="17" data-type="baby" data-trivia="elli_ess.jpg" data-memo="" style="top: 353px; left: 550px;">17</div>
-          <div class="number-overlay" data-number="18" data-type="baby" data-trivia="elli_schnarch.jpg" data-memo="qua qua" style="top: 250px; left: 250px;">18</div>
-          <div class="number-overlay" data-number="19" data-type="baby" data-trivia="elli_arbeiten.jpg" data-memo="arbeitsgeräusch" style="top: 510px; left: 450px;">19</div>
-          <div class="number-overlay" data-number="20" data-type="bird" data-trivia="https://piped.kavin.rocks/watch?v=zvZ6AdThEQ4&t=300s" data-memo="" style="top: 95px; left: 210px;">20</div>
-          <div class="number-overlay" data-number="21" data-type="baby" data-trivia="elli_schuessel.jpg" data-memo="uuu" style="top: 440px; left: 520px;">21</div>
-          <div class="number-overlay" data-number="22" data-type="baby" data-trivia="winterschlaf.jpg" data-memo="babamama" style="top: 485px; left: 130px;">22</div>
-          <div class="number-overlay" data-number="23" data-type="bird" data-trivia="https://piped.kavin.rocks/watch?v=VsM3UHazC0Q" data-memo="ren" style="top: 370px; left: 67px;">23</div>
-          <div class="number-overlay" data-number="24" data-type="baby" data-trivia="elli_finale.jpg" data-memo="elli_lachen1" style="top: 400px; left: 300px;">24</div>
+          <div class="number-overlay" data-number="1"  style="top: 210px; left: 399px;">1</div>
+          <div class="number-overlay" data-number="2" style="top: 600px; left: 60px;">2</div>
+          <div class="number-overlay" data-number="3"  style="top: 300px; left: 500px;">3</div>
+          <div class="number-overlay" data-number="4" style="top: 20px; left: 160px;">4</div>
+          <div class="number-overlay" data-number="5"  style="top: 234px; left: 30px;">5</div>
+          <div class="number-overlay" data-number="6"  style="top: 190px; left: 110px;">6</div>
+          <div class="number-overlay" data-number="7"  style="top: 170px; left: 550px;">7</div>
+          <div class="number-overlay" data-number="8"  style="top: 550px; left: 500px;">8</div>
+          <div class="number-overlay" data-number="9"  style="top: 375px; left: 200px;">9</div>
+          <div class="number-overlay" data-number="10" style="top: 70px; left: 60px;">10</div>
+          <div class="number-overlay" data-number="11" style="top: 99px; left: 450px;">11</div>
+          <div class="number-overlay" data-number="12" style="top: 508px; left: 571px;">12</div>
+          <div class="number-overlay" data-number="13"  style="top: 430px; left: 20px;">13</div>
+          <div class="number-overlay" data-number="14"  style="top: 150px; left: 300px;">14</div>
+          <div class="number-overlay" data-number="15"  style="top:590px; left: 240px;">15</div>
+          <div class="number-overlay" data-number="16"  style="top: 60px; left: 360px;">16</div>
+          <div class="number-overlay" data-number="17"  style="top: 353px; left: 550px;">17</div>
+          <div class="number-overlay" data-number="18"  style="top: 250px; left: 250px;">18</div>
+          <div class="number-overlay" data-number="19"  style="top: 510px; left: 450px;">19</div>
+          <div class="number-overlay" data-number="20"  style="top: 95px; left: 210px;">20</div>
+          <div class="number-overlay" data-number="21"  style="top: 440px; left: 520px;">21</div>
+          <div class="number-overlay" data-number="22"  style="top: 485px; left: 130px;">22</div>
+          <div class="number-overlay" data-number="23"  style="top: 370px; left: 67px;">23</div>
+          <div class="number-overlay" data-number="24" style="top: 400px; left: 300px;">24</div>
 
         </div>
 
